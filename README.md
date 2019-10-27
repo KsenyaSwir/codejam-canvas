@@ -1,6 +1,6 @@
 # codejam-canvas
-1. задание - https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/markup-2018q3.md
-2. скриншот - https://imgur.com/a/vB30e5R
+1. задание - https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-2/codejam-canvas/codejam-canvas.md
+2. скриншот
 3. 27.10.2019
 4. Total
 
