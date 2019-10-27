@@ -1,0 +1,183 @@
+.wrapper {
+  width: 1441px;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-top: 3%;
+  margin-left: 2%;
+  gap: 15%;
+}
+
+.pallete {
+  width: 1441px;
+  height: 48px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.pallete h3 {
+  color: black;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0px;
+  padding-left: 40px;
+}
+
+.pallete .menu {
+  float: left;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.pallete .menu_icon {
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-left: auto;
+}
+
+.pallete img:hover {
+  -webkit-transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
+}
+
+.pallete .pallete-inner {
+  padding: 10px 0 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container_one {
+  width: 228px;
+  height: 246px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+  margin: 5% 3%;
+  padding-left: 0;
+  padding-top: 5px;
+  text-decoration: none;
+  list-style: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgba(0, 0, 0, 0.541327);
+}
+
+.container_one li {
+  margin: 10% 3% 10% 25%;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.container_one li:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.container_one li:first-child {
+  list-style-image: url("rss-codejam-canvas/Sheets/icon-share.png");
+}
+
+.container_one li:nth-child(2) {
+  list-style-image: url("rss-codejam-canvas/Sheets/icon-upload.png");
+}
+
+.container_one li:nth-child(3) {
+  list-style-image: url("rss-codejam-canvas/Sheets/arrows-alt.png");
+}
+
+.container_one li:nth-child(4) {
+  list-style-image: url("rss-codejam-canvas/Sheets/icon-share-trans.png");
+}
+
+.container_two {
+  width: 228px;
+  height: 246px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+  margin: 5% 3%;
+  padding-left: 0;
+  padding-top: 5px;
+  text-decoration: none;
+  list-style: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgba(0, 0, 0, 0.541327);
+}
+
+.container_two li {
+  margin: 10% 3% 10% 25%;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.container_two li:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.container_two li:first-child {
+  list-style-image: url("rss-codejam-canvas/Sheets/Ellipse.png");
+}
+
+.container_two li:nth-child(2) {
+  list-style-image: url("rss-codejam-canvas/Sheets/Ellipse-2.png");
+}
+
+.container_two li:nth-child(3) {
+  list-style-image: url("rss-codejam-canvas/Sheets/Ellipse-3.png");
+}
+
+.container_two li:nth-child(4) {
+  list-style-image: url("rss-codejam-canvas/Sheets/Ellipse-4.png");
+}
+
+button {
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
+  background: #95c2ec;
+}
+/*# sourceMappingURL=style.css.map */
