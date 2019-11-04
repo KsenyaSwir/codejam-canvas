@@ -1,4 +1,4 @@
-const frame = [
+const frame_2 = [
     [
         [
             255,
@@ -6211,8 +6211,8 @@ const frame = [
 
 var canvas = document.getElementById("canv_2"), // Select our canvas element
     ctx = canvas.getContext("2d"), // Save the context we're going to use
-    width = frame[0].length, // Get the width of the array
-    height = frame.length, // Get the height of the array
+    width = frame_2[0].length, // Get the width of the array
+    height = frame_2.length, // Get the height of the array
     scale = 12; // Scales the whole image by this amount, set to 1 for default size
 
 // Make sure the canvas is no larger than the size we need
@@ -6223,8 +6223,7 @@ canvas.height = height * scale;
 for (var row = 0; row < height; row++) {
     for (var col = 0; col < width; col++) { // Since there are nested arrays we need two for loops
 
-        ctx.fillStyle = 'rgb(' + row + ',' +
-            col + ', 0)';
+        ctx.fillStyle = 'rgba(' + frame_2[row][col] + ')';
 
         ctx.fillRect(col * scale, row * scale, scale, scale);
 

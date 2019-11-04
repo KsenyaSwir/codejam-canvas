@@ -26,5 +26,7 @@ window.onload = function draw() {
                 ctx.fillRect(col * scale, row * scale, scale, scale); // framectually draw the rectangle
             }
         }
+
+
     }
 }

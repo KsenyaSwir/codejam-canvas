@@ -1,4 +1,4 @@
-var btn = document.querySelector(' #draw');
+var btn = document.querySelector('#draw');
 var images = document.querySelectorAll('#gallery canvas');
 
 var i = 0;
