@@ -180,4 +180,8 @@ button {
   border-radius: 10px;
   background: #95c2ec;
 }
+
+.select-container li {
+  list-style: none;
+}
 /*# sourceMappingURL=style.css.map */
