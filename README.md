@@ -19,3 +19,4 @@ Requirements to commits, repo and PR are not met - up to -20
 
 mark calculation:
 10 + 10 + 10 = 30
+5. https://ksenyaswir.github.io/codejam-canvas/
